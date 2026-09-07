@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="小隊長宇宙：盧廣仲的音樂、影像與故事收藏平台。" />
+    <title>CAPTAIN'S ROOM — 盧廣仲宇宙</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首頁">CAPTAIN'S<br /><em>ROOM</em></a>
+      <nav aria-label="主要選單">
+        <a href="#listen">隨選聽</a><a href="#screen">影視放映室</a><a href="#notes">冷知識</a><a href="#story">小隊長年表</a>
+      </nav>
+      <button class="menu-button" aria-label="開啟選單">MENU</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">THE WORLD OF CROWD LU</p>
+          <h1>把日子<br /><span>唱得</span>有一點怪</h1>
+          <p class="intro">從早餐店的晨光，到舞台上不按牌理的搖擺。這裡收集盧廣仲的聲音、銀幕時刻，還有那些讓人忍不住會心一笑的生活哲學。</p>
+          <a class="button" href="#listen">開始收聽 <b>↘</b></a>
+        </div>
+        <div class="hero-art" aria-label="抽象唱片與人物剪影插畫">
+          <div class="sun"></div><div class="record r1"></div><div class="record r2"></div>
+          <div class="person"><span class="hat"></span><span class="head"></span><span class="glasses"></span><span class="body"></span><span class="guitar"></span></div>
+          <span class="scribble one">♬</span><span class="scribble two">♥</span><span class="scribble three">♪</span>
+          <p>LIVE A LITTLE<br />LOUDER</p>
+        </div>
+        <div class="hero-stamp">EST.<br />1985<br /><i>TAIWAN</i></div>
+      </section>
+
+      <section class="ticker" aria-label="站內標語"><div>小隊長出發！　·　音樂是生活的延長線　·　CAPTAIN LU KUANG-CHUNG　·　小隊長出發！　·　音樂是生活的延長線　·　</div></section>
+
+      <section id="listen" class="section listen-section">
+        <div class="section-heading"><p class="eyebrow">01 / LISTEN ON DEMAND</p><h2>現在，聽一首吧</h2><p>選擇一首歌，讓它陪你走一小段路。</p></div>
+        <div class="player-layout">
+          <div class="now-playing">
+            <div class="album-art"><div class="mini-record"></div><span>LU<br />GUANG<br />ZHONG</span></div>
+            <p class="mono" id="track-count">LOADING TRACKS...</p>
+            <h3 id="now-title">正在載入音樂</h3><p id="now-album">請稍候</p>
+            <div class="progress"><span id="progress-bar"></span></div>
+            <div class="controls"><button id="previous" aria-label="上一首">↞</button><button id="play" class="play" aria-label="播放">▶</button><button id="next" aria-label="下一首">↠</button><span id="time">00:00 / 00:30</span></div>
+            <audio id="audio" preload="none"></audio>
+            <p class="preview-note">提供授權的 30 秒試聽；完整歌曲請前往串流平台。</p>
+          </div>
+          <ol class="track-list" id="track-list" aria-label="歌曲清單"></ol>
+        </div>
+      </section>
+
+      <section id="screen" class="section screen-section">
+        <div class="section-heading light"><p class="eyebrow">02 / ON SCREEN</p><h2>銀幕裡的他</h2><p>有時用旋律說話，有時用一個眼神。</p></div>
+        <div class="film-grid">
+          <article class="film film-a"><div class="film-number">01</div><div><p>2019 · DRAMA</p><h3>花甲男孩<br />轉大人</h3><span>電視劇演出</span></div></article>
+          <article class="film film-b"><div class="film-number">02</div><div><p>2016 · FILM</p><h3>花甲大人<br />轉男孩</h3><span>電影作品</span></div></article>
+          <article class="film film-c"><div class="film-number">03</div><div><p>2020 · MUSIC</p><h3>刻在你心底的<br />名字</h3><span>電影主題曲</span></div></article>
+        </div>
+      </section>
+
+      <section id="notes" class="section notes-section">
+        <div class="section-heading"><p class="eyebrow">03 / DID YOU KNOW?</p><h2>小隊長的小事</h2></div>
+        <div class="fact-grid">
+          <article><b>01</b><h3>綽號的起點</h3><p>「小隊長」這個親切稱呼，陪著他的音樂旅程，也成了歌迷之間獨有的暗號。</p></article>
+          <article><b>02</b><h3>從吉他開始</h3><p>以創作歌手身分走進大眾視野，簡單的吉他與真誠的唱腔，是他最有辨識度的兩件事。</p></article>
+          <article><b>03</b><h3>不只一種舞台</h3><p>從專輯、演唱會到戲劇與電影，他總在不同媒介裡，找到屬於自己的生活感。</p></article>
+          <article><b>04</b><h3>一首歌的距離</h3><p>他的作品常從平凡日常長出來：早餐、散步、想念與那些不太好意思說出口的心情。</p></article>
+        </div>
+      </section>
+
+      <section id="story" class="section story-section">
+        <div class="story-intro"><p class="eyebrow">04 / ORIGIN STORY</p><h2>從一個孩子，<br />到一位小隊長。</h2><p>每段創作都不是憑空落下；它們從成長的城市、青春的房間，與一次次勇敢開口開始。</p></div>
+        <div class="timeline">
+          <article><time>1985</time><div><h3>台南出生</h3><p>在南方的日光與慢節奏裡長大，故事從這裡開始。</p></div></article>
+          <article><time>學生時期</time><div><h3>把心事寫成歌</h3><p>接觸吉他與創作，逐漸找到了與世界打招呼的方式。</p></div></article>
+          <article><time>2008</time><div><h3>《100種生活》</h3><p>以首張專輯正式出道，讓更多人聽見這個率直又鮮明的聲音。</p></div></article>
+          <article><time>現在</time><div><h3>繼續生活，繼續唱</h3><p>無論舞台多大，依然把每一次相遇當成一首新歌的前奏。</p></div></article>
+        </div>
+      </section>
+    </main>
+    <footer><p>CAPTAIN'S ROOM</p><p>為喜愛盧廣仲的你而做。非官方歌迷創作平台。</p><a href="#top">BACK TO TOP ↑</a></footer>
+    <script src="app.js"></script>
+  </body>
+</html>

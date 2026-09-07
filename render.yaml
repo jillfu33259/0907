@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: captains-room
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
